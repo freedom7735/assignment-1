@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Shared Styles */
+.text-center{
+    text-align: center;
+}
+.btn-primary{
+    width: 135px;
+    height: 48px;
+    background: #3631ab;
+    overflow: hidden;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    border: none;
+}
+
+
+header{
+    background-image: url(images/Hero-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 150px;
+}
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    color: #4E47FF;
+}
+.heading-content{
+    padding: 158px 0;
+}
+.cool-dark{
+    padding-bottom: 37px;
+}
+
+main{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.see-it-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 110px;
+}
+.see-it-section img{
+    border-radius: 48px;
+}
+
+.productive-promotion{
+    padding: 50px;
+    background-color: #a5a4c9;
+}
+.users-section{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+<body class="inter-normal">
+    <header class="header">
+        <nav>
+            <h3 class="nav-logo">LOGO</h3>
+            <a href=""><button class="nav-button">Sign Up</button></a>
+        </nav>
+
+        <div class="raleway-normal">
+
+           
+        </div>
+
+
+    </header>
+
+    <main class="raleway-normal">
+        <section class="See-It-section">
+            <div>
+                  <h3 class="see-it">See It in Action</h3>
+                    <p style="color: #252432;" class="peragraph">Explore the live preview and imagine your <br> brand in this bold new look.</p>
+                    <button class="nav-button main-btn">Launch Live preview</button>
+            </div>
+
+           
+                <img class="main-img" src="images/wc-mini.png" alt="">
+   
+        </section>
+
+        <section class="promotional">
+            <div class="join-people">
+                    <h4>Joined Thousands of Productive Users</h4>
+            </div>
+            
+            <div class="all-user">        
+                    <div class="active-user">
+                        <h2 class="ussercolor">50K</h2>
+                        <p style="font-size: 20px;">Active Users</p>
+                    
+                    </div>
+
+                    <div class="twom">
+                        <h2 class="ussercolor">2M+</h2>
+                        <p style="font-size: 20px; ">Focus Sessions</p>
+                    </div>
+                
+                    <div class="ninety">
+                        <h2 class="ussercolor">95%</h2>
+                        <p style="font-size: 20px;">Satisfaction Rate</p>
+                    </div>
+            </div>
+            
+
+        </section>
+
+
+        
+        
+
+    </main>
+
+    <footer>
+
+    </footer>
+    
+</body> */
