@@ -1,101 +1,107 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
-    <header>
-        <nav>
-            <div class="logo">
-                LOGO
-            </div>
-            <button class="btn-primary">Sign Up</button>
-        </nav>
-        <div class="heading-content text-center">
-                <h3 class="cool-dark">Cool Dark UI Template for <br> Webflow Agencies!</h3>
-                <button class="btn-primary">Stay Focused</button>
-            </div>
-    </header>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        
+        <header>
+            <nav>
+                <div class="logo">
+                    LOGO
+                </div>
+                <button class="btn-primary">Sign Up</button>
+            </nav>
+            <div class="heading-content text-center">
+                    <h3 class="cool-dark raleway-normal">Cool Dark UI Template for <br> Webflow Agencies!</h3>
+                    <button class="btn-primary">Stay Focused</button>
+                </div>
+        </header>
 
-    <!-- main section -->
-     <main>
-       <section>
-         <div class="see-it-section">
-        <div class="action-section">
-            <h2>See It in Action</h2>
-            <p>Explore the live preview and imagine your <br> brand in this bold new look.</p>
-            <button class="btn-primary">Launch Live Preview</button>
-        </div>
-        <img src="images/wc-mini.png" alt="">
-        </div>
-       </section>
-
-        <!-- Productive section -->
+        <!-- main section -->
+        <main>
         <section>
-            <div class="productive-promotion text-center">
-            <h1>Joined Thousands of Productive Users</h1>
-            <div class="users-section">
+            <div class="see-it-section">
+            <div class="action-section raleway-normal">
+                <h2>See It in Action</h2>
+                <p>Explore the live preview and imagine your <br> brand in this bold new look.</p>
+                <button class="btn-primary">Launch Live Preview</button>
+            </div>
+            <img src="images/wc-mini.png" alt="">
+            </div>
+        </section>
+
+            <!-- Productive section -->
+            <section>
+                <div class="productive-promotion text-center">
+                <h1>Joined Thousands of Productive Users</h1>
+                <div class="users-section inter-normal">
+                    <div class="current-user">
+                    <div class="user-number"> 50K </div>
+                    <div class="user-text"> Active Users </div>
+                </div>
                 <div class="current-user">
-                <div class="user-number"> 50K </div>
-                <div class="user-text"> Active Users </div>
+                    <div class="user-number"> 2M+ </div>
+                    <div class="user-text"> Focus Sessions </div>
+                </div>
+                <div class="current-user">
+                    <div class="user-number"> 95% </div>
+                    <div class="user-text"> Satisfaction Rate</div>
+                </div>
+                </div>
             </div>
-            <div class="current-user">
-                <div class="user-number"> 2M+ </div>
-                <div class="user-text"> Focus Sessions </div>
+            </section>
+
+            <section>
+                <div class="ready-focus text-center">
+                <div class="ready-focus-heading raleway-normal">
+                    <h2>Ready to focus better</h2>
+                    <p>This template instantly leveled up our presence.” – Studio Vertex</p>
+                    <button class="btn-primary">Get Started Now</button>
+                </div>
+                <img src="images/wc-big.png" alt="">
             </div>
-            <div class="current-user">
-                <div class="user-number"> 95% </div>
-                <div class="user-text"> Satisfaction Rate</div>
-            </div>
-            </div>
-        </div>
-        </section>
+            </section>
 
-        <section>
-            <div class="ready-focus text-center">
-            <div class="ready-focus-heading">
-                <h2>Ready to focus better</h2>
-                <p>This template instantly leveled up our presence.” – Studio Vertex</p>
-                <button class="btn-primary">Get Started Now</button>
-            </div>
-            <img src="images/wc-big.png" alt="">
-        </div>
-        </section>
+        <section class="contact-section">
+                <!-- Left Side -->
+                <div class="content-heading raleway-normal">
+                    <h1>Let's Get in <br> Touch</h1>
+                </div>
 
-      <section class="contact-section">
-            <!-- Ledt Side -->
-             <div class="content-heading">
-                <h1>Let's Get in <br> Touch</h1>
-             </div>
+                <!-- Right SIde(Form-Contact) -->
+                <form class="contact-form">
+                    <label for="email">Email</label>
+                    <input type="email" placeholder="example@email.com" name="" id="" required>
 
-             <!-- Right SIde(Form-Contact) -->
-              <form class="contact-form">
-                <label for="email">Email</label>
-                <input type="email" placeholder="example@email.com" name="" id="" required>
+                    <label for="name">Name</label>
+                    <input type="email" placeholder="full name" name="" id="" required>
 
-                <label for="name">Name</label>
-                <input type="email" placeholder="full name" name="" id="" required>
+                    <label for="message">Message</label>
+                    <textarea name="" id="" placeholder="write your message...."></textarea> <br>
 
-                <label for="message">Message</label>
-                <textarea name="" id="" placeholder="write your message...."></textarea> <br>
+                    <button type="submit" class="btn-primary">Get in Touch</button>
+                </form>
+            </section>
+        </main>
 
-                <button type="submit" class="btn-primary">Get in Touch</button>
-              </form>
-           </section>
-     </main>
-
-     <footer class="text-center">
-        <div class="logo">
-                LOGO
-            </div>
-            <p>Ready to elevate your online presence? Contact us today to discuss <br> your project and discover how we can bring your vision to life.</p>
-            <br>
-            <a href="#">Home</a><a href="#">About</a><a href="#">How it Works</a><a href="#">Service</a>
-     </footer>
-     
-</body>
-</html>
+        <footer class="text-center">
+            <div class="logo2 inter-normal ">
+                    LOGO
+                </div>
+                <p>Ready to elevate your online presence? Contact us today to discuss <br> your project and discover how we can bring your vision to life.</p>
+                <br>
+                <a href="#">Home</a><a href="#">About</a><a href="#">How it Works</a><a href="#">Service</a>
+        </footer>
+        
+    </body>
+    </html>
