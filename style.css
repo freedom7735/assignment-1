@@ -4,18 +4,29 @@
     box-sizing: border-box;
 }
 /* Shared Styles */
+a{
+    text-decoration: none;
+}
 .text-center{
     text-align: center;
 }
 .btn-primary{
-    width: 135px;
-    height: 48px;
+    width: 145px;
+    height: 50px;
     background: #3631ab;
     overflow: hidden;
     border-radius: 10px;
     cursor: pointer;
     color: white;
     border: none;
+}
+.btn-primary:hover{
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    transition: all 0.3s ease;
+    color: #382e2e;
+}
+.bold{
+    font-weight: bold;
 }
 
 
@@ -40,6 +51,7 @@ nav{
     padding: 158px 0;
 }
 .cool-dark{
+    font-size: 65px;
     padding-bottom: 37px;
 }
 
@@ -51,212 +63,150 @@ main{
 .see-it-section{
     display: flex;
     justify-content: space-between;
-    padding: 110px;
+    padding: 116px 0;
+    align-items: center;
+}
+.action-section h2{
+    font-size: 42px;
+    font-weight: bold;
+}
+.action-section p{
+    font-size: 26px;
+    color: #a5a4c9;
+    padding: 15px 0;
+
 }
 .see-it-section img{
     border-radius: 48px;
 }
 
+
+.productive-promotion h1{
+    padding: 50px 0;
+    font-size: 38px;
+    font-weight: bold;
+}
 .productive-promotion{
     padding: 50px;
-    background-color: #a5a4c9;
+    background-color: #b4b3e4;
+    border-radius: 24px;
+    
 }
 .users-section{
     display: flex;
     justify-content: space-around;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-<body class="inter-normal">
-    <header class="header">
-        <nav>
-            <h3 class="nav-logo">LOGO</h3>
-            <a href=""><button class="nav-button">Sign Up</button></a>
-        </nav>
-
-        <div class="raleway-normal">
-
-           
-        </div>
-
-
-    </header>
-
-    <main class="raleway-normal">
-        <section class="See-It-section">
-            <div>
-                  <h3 class="see-it">See It in Action</h3>
-                    <p style="color: #252432;" class="peragraph">Explore the live preview and imagine your <br> brand in this bold new look.</p>
-                    <button class="nav-button main-btn">Launch Live preview</button>
-            </div>
-
-           
-                <img class="main-img" src="images/wc-mini.png" alt="">
-   
-        </section>
-
-        <section class="promotional">
-            <div class="join-people">
-                    <h4>Joined Thousands of Productive Users</h4>
-            </div>
-            
-            <div class="all-user">        
-                    <div class="active-user">
-                        <h2 class="ussercolor">50K</h2>
-                        <p style="font-size: 20px;">Active Users</p>
-                    
-                    </div>
-
-                    <div class="twom">
-                        <h2 class="ussercolor">2M+</h2>
-                        <p style="font-size: 20px; ">Focus Sessions</p>
-                    </div>
-                
-                    <div class="ninety">
-                        <h2 class="ussercolor">95%</h2>
-                        <p style="font-size: 20px;">Satisfaction Rate</p>
-                    </div>
-            </div>
-            
-
-        </section>
-
-
-        
-        
-
-    </main>
-
-    <footer>
-
-    </footer>
+.user-number{
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+}
+.user-text{
+    font-size: 20px;
+    font-weight: 400;
+    color: #746667;
+}
+
+
+.ready-focus{
+  padding: 71px;
+}
+.ready-focus-heading h2{
+    font-size: 50px;
+    font-weight: bold;
+    color: #000000;
+    margin: 100px 0 25px;
+}
+.ready-focus-heading p{
+    color: #7a6e6ed4;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.ready-focus img{
     
-</body> */
+     margin: 25px;
+    border-radius: 48px;
+}
+
+
+
+.contact-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+    padding: 80px 20px;
+    width: 1140px;
+    margin: 0 auto;
+
+}
+.content-heading{
+   min-width: 550px;
+}
+.content-heading h1{
+    font-size: 97px;
+    font-weight: bold;
+    color: #000000;
+    line-height: 1.2;
+}
+
+.contact-form{
+    border: none;
+}
+input,textarea{
+    display: block;
+    width: 497px;
+    padding: 32px 20px;
+    height: 70px;
+    gap: 10px;
+    border-radius: 10px;
+    border: 1px solid #D6DDED;
+}
+textarea{
+    height: 135px;
+}
+.contact-form label{
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 6px;
+    color: #333;
+    margin-bottom: 6px;
+    color: #746667;
+}
+.contact-form,.contact-form textarea{
+    width: 100%;
+    padding: 13px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    font-size: 14px;
+    color: #000000;
+}
+.contact-form textarea{
+    padding: 32px 20px;
+}
+.contact-form button{
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+}
+.contact-form label{
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+}
+footer{
+    margin: 104px 0;
+}
+.footer-text{
+    font-size: 100px;
+}
+footer p{
+    color: #8987A1;
+    padding: 10px 12px;
+}
+footer a{
+    padding-right: 20px;
+    color: #8987A1;
+}
