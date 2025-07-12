@@ -59,7 +59,7 @@ nav{
     padding: 50px 150px;
 }
 .logo{
-    font-size: 30px;
+    font-size: 34px;
     font-weight: bold;
     color: #4E47FF;
 }
@@ -123,10 +123,70 @@ main{
     color: #746667;
 }
 
-
-.ready-focus{
-  padding: 71px;
+/* REVIEW SECTION */
+.feedback-section{
+    margin: 137px;
 }
+.feedback-section h2{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+    margin-bottom:50px ;
+}
+.Feedback-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.Cards{
+    background-color:#e3e5eb;
+    border-radius:14px;
+    box-shadow: 0 5px 16px black;
+    padding: 24px;
+    width: 366px;
+    text-align:left;
+}
+
+.card img{
+    margin-bottom: 10px;
+}
+
+.card-title{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card-text{
+    color: #B3B3B3;
+    font-size: 15px;
+    margin-bottom: 16px;
+}
+.reviewers{
+    display: flex;
+}
+
+.reviewers img{
+        border-radius: 20px;
+}
+
+.reviewers-details{
+    font-size: 15px;
+    color:#666;
+}
+
+.reviewers-details span{
+    display: block;
+    font-weight: 500;
+    color: #333;
+}
+
+
+
+
+
+/* ready focus */
+
 .ready-focus-heading h2{
     font-size: 50px;
     font-weight: bold;
